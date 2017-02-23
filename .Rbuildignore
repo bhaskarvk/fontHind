@@ -7,3 +7,5 @@
 ^CONDUCT\.md$
 ^README_figs$
 ^docs$
+^\.travis\.yml$
+^appveyor\.yml$
