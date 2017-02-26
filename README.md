@@ -2,7 +2,7 @@
 Hind font Based `ggplot2` Themes.
 ---------------------------------
 
-[![Project Status: Active – The project is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-2017--02--23-green.svg)](/commits/master)
+[![Project Status: Active – The project is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-2017--02--26-green.svg)](/commits/master)
 
 [![Travis-CI Build Status](https://travis-ci.org/bhaskarvk/fontHind.svg?branch=master)](https://travis-ci.org/bhaskarvk/fontHind) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/bhaskarvk/fontHind?branch=master&svg=true)](https://ci.appveyor.com/project/bhaskarvk/fontHind)
 
@@ -19,10 +19,11 @@ The package is released under MIT License while the Hind fonts are released unde
 ### Installation
 
 ``` r
+install.packages('hrbrthemes')
+
 if(!require(devtools)) {
   install.packages("devtools")
 }
-devtools::install_github('hrbrmstr/hrbrthemes')
 devtools::install_github('bhaskarvk/fontHind')
 fontHind::import_hind() # Required only once
 ```

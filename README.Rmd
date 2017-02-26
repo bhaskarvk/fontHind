@@ -36,10 +36,11 @@ The package is released under MIT License while the Hind fonts are released unde
 
 ```{r install,eval=FALSE}
 
+install.packages('hrbrthemes')
+
 if(!require(devtools)) {
   install.packages("devtools")
 }
-devtools::install_github('hrbrmstr/hrbrthemes')
 devtools::install_github('bhaskarvk/fontHind')
 fontHind::import_hind() # Required only once
 ```
