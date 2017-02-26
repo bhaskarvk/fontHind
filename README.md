@@ -4,11 +4,11 @@ Hind font Based `ggplot2` Themes.
 
 [![Project Status: Active – The project is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-2017--02--26-green.svg)](/commits/master)
 
-[![Travis-CI Build Status](https://travis-ci.org/bhaskarvk/fontHind.svg?branch=master)](https://travis-ci.org/bhaskarvk/fontHind) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/bhaskarvk/fontHind?branch=master&svg=true)](https://ci.appveyor.com/project/bhaskarvk/fontHind)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.0.0-6666ff.svg)](https://cran.r-project.org/) [![](http://cranlogs.r-pkg.org/badges/grand-total/fontHind)](http://cran.rstudio.com/web/packages/fontHind/index.html) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/fontHind)](https://cran.r-project.org/package=fontHind) [![packageversion](https://img.shields.io/badge/Package%20version-0.1.1-orange.svg?style=flat-square)](commits/master)
+[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.0.0-6666ff.svg)](https://cran.r-project.org/) [![packageversion](https://img.shields.io/badge/Package%20version-0.1.1-orange.svg?style=flat-square)](commits/master)
+
+------------------------------------------------------------------------
 
 This is an add-on pacakge for [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) pacakge. It provides ggplot2 theme based on [Hind font](https://fonts.google.com/specimen/Hind).
 

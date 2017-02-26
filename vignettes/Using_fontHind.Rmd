@@ -1,29 +1,13 @@
 ---
-output: github_document
+title: "Using fontHind"
+author: "Bhaskar V. Karambelkar"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using fontHind}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
-```{r, echo = FALSE}
-knitr::opts_chunk$set(fig.retina=2, fig.path = "README_figs/README-")
-```
-
-## Hind font Based `ggplot2` Themes.
-
-```{r, echo = FALSE}
-description <- readLines(system.file("DESCRIPTION", package='fontHind'))
-rvers <- stringr::str_match(grep("R \\(", description, value = TRUE), "[0-9]{1,4}\\.[0-9]{1,4}\\.[0-9]{1,4}")[1,1]
-```
-
-[![Project Status: Active – The project is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-green.svg)](/commits/master)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
-```{r, echo = FALSE}
-description <- readLines(system.file("DESCRIPTION", package='fontHind'))
-version <- gsub(" ", "", gsub("Version:", "", grep("Version:", description, value = TRUE)))
-```
-[![minimal R version](https://img.shields.io/badge/R%3E%3D-`r rvers`-6666ff.svg)](https://cran.r-project.org/) [![packageversion](https://img.shields.io/badge/Package%20version-`r version`-orange.svg?style=flat-square)](commits/master)
- 
-----
 
 This is an add-on pacakge for  [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) pacakge. It provides ggplot2 theme based on [Hind font](https://fonts.google.com/specimen/Hind).
 
@@ -50,7 +34,7 @@ The `fontHind::import_hind()` call will import the Hind fonts in your `extrafont
 
 #### Hind Fonts
 
-```{r eg1, fig.retina=2}
+```{r eg1, fig.retina=1, fig.width=6, fig.height=4}
 library(ggplot2)
 library(fontHind)
 
@@ -63,6 +47,3 @@ gg <- ggplot(mtcars, aes(mpg, wt)) +
 
 gg + theme_ipsum_hind()
 ```
-
-### Code of Conduct
-Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
