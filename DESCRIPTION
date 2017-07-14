@@ -1,6 +1,6 @@
 Package: fontHind
 Title: Additional 'ggplot2' Themes Using 'Hind' Fonts
-Version: 0.1.1
+Version: 0.1.9000
 Authors@R: c(
     person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com", role = c("aut", "cre")),
     person("MPlus", role = "cph"))
@@ -17,7 +17,7 @@ RoxygenNote: 6.0.1
 Imports: hrbrthemes,
     extrafont,
     ggplot2
-URL: https://github.com/bhaskarvk/fontHind
+URL: https://github.com/bhaskarvk/fontHind, https://bhaskarvk.github.io/fontHind/
 BugReports: https://github.com/bhaskarvk/fontHind/issues
 Suggests: knitr,
     rmarkdown
